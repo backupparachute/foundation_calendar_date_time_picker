@@ -78,7 +78,7 @@ $.fcdp = {
 
 		opts.input.val(inputVal);
 
-		date = date ? date.add(opts.utcOffset).hours() : date;
+		// date = date ? date.add(opts.utcOffset).hours() : date;
 		this.setWorkingDate(opts, date);
 	},
 
